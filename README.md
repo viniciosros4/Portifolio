@@ -10,6 +10,9 @@ Adicionando novos projetos aos slides e seções;
 
 Fazendo pequenos ajustes visuais e estruturais.
 
+Visualização: 
+[https://viniciosros4.github.io/Portifolio/]
+
 💻 Tecnologias Utilizadas
 HTML5
 
