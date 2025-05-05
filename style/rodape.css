@@ -1,0 +1,31 @@
+:root {
+    --color-bg: #2E2E2E;            /* Fundo escuro */
+    --color-surface: #121212;       /* Área secundária (cards, seções internas) */
+    --color-primary: #1E90FF;       /* Azul elétrico (destaques, botões) */
+    --color-accent: #32CD32;        /* Verde neón (links, botões) */
+    --color-text: #D3D3D3;          /* Texto principal */
+    --color-muted: #A9A9A9;         /* Texto secundário */
+    --color-border: #A9A9A9;        /* Bordas sutis */
+    --color-white: #FFFFFF;         /* Branco para elementos principais */
+  }
+  
+
+.footer {
+
+    margin-top: 40px;
+  
+}
+
+.text-footer {
+
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 800;
+
+}
+
+
+
+
+
+

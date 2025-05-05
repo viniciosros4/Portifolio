@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="assets/rubik.png" type="image/x-icon">
+
+    <!--Links Css-->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/projetos.css">
+    <link rel="stylesheet" href="style/sobre.css">
+    <link rel="stylesheet" href="style/contato.css">
+    <link rel="stylesheet" href="style/rodape.css">
+
+    <!--link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!--Fonta Awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Vinicios Rosa</title>
+
+</head>
+    <body>
+        
+
+    <div class="container-principal">
+
+        <header> <!--Cabeçalho-->
+
+         <a href="#home">
+            <img src="assets/rubik.png" alt="logo" id="logo"><!--Logo-->
+         </a>
+
+            <nav id="navbar">
+                
+                <ul id="nav_list">
+                    <li class="nav-items">
+                        <a href="#">Home</a>
+                    </li>
+
+                    <li class="nav-items">
+                        <a href="#projetos">Projetos</a>
+                    </li>
+
+                    <li class="nav-items">
+                        <a href="#sobre">Sobre mim</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <button class="btn btn-primary button-custom">
+                <a href="#contato">Entre em Contato</a>
+            </button>
+
+        </header>
+
+        <section id="cta">
+            <h2> Olá, eu sou o <span> <strong> Vinicios Rosa </strong> </span> </h2>
+            <p>
+                 Estou me especializando em desenvolvimento  <span> <strong > Front-End.  </strong> </span>  Tenho experiência com  <span>  <strong> HTML, CSS, JavaScript </strong> </span> e estou aprendendo   <span> <strong>React</strong>  </span> para criar interfaces modernas e funcionais. Busco minha primeira oportunidade na área para crescer e entregar valor com código
+            </p>
+
+            <!--redes sociais-->
+            <div class="social-media-buttons ">
+
+                <a href="">
+                    <i class="fa-brands fa-html5"></i>
+                </a>
+
+                <a href="">
+                    <i class="fab fa-css3"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-bootstrap"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-js"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-react"></i>
+                </a>
+
+            </div>
+
+            <button class="btn btn-primary button-custom-cta">
+               <a href="#projetos">Projetos</a>
+            </button>
+
+        </section>
+
+        <section id="banner">
+            <img src="assets/web-developer-illustration-1004x1024-wcqgbag3.png" alt="">
+        </section>
+
+      </div>
+
+    <!--Projetos--> 
+        
+    <section id="projetos" class="container my-5">
+        <h2 class="text-center">Projetos</h2>
+        <div class="row justify-content-center mt-3">
+            
+            <!-- Carrossel 1 -->
+            <div class="col-md-6 mb-4">
+                <h4 class="text-center">Landing Pages</h4>
+                <div id="carouselProjetos1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/capa.png" class="d-block w-100" alt="Projeto 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Zoom – Landing Page Responsiva</h5>
+                                <a href="https://github.com/viniciosros4/Landing-Page---Zoom?tab=readme-ov-file" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="assets/Captura de tela 2025-05-02 162157.png" class="d-block w-100" alt="Projeto 2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Food – Landing Page Responsiva / JS</h5>
+                                <a href="https://github.com/viniciosros4/Landing-Page---Restaurante" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="assets/readme.png" class="d-block w-100" alt="Projeto 3">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Clone Spotify - Landing Page Responsiva / Bootstrap </h5>
+                                <a href="https://github.com/viniciosros4/Clone-da-Pagina-Inicial-do-Spotify" class="btn btn-primary" target="_blank">Ver no GitHub</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Carrossel 1 Fim-->
+    
+            <!-- Carrossel 2 -->
+            <div class="col-md-6 mb-4">
+                <h4 class="text-center">Outros Projetos</h4>
+                <div id="carouselProjetos2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="projeto4.jpg" class="d-block w-100" alt="Projeto 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Projeto 4</h5>
+                                <p>Descrição do Projeto 4.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="projeto1.jpg" class="d-block w-100" alt="Projeto 2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Projeto 1</h5>
+                                <p>Descrição do Projeto 1.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="projeto1.jpg" class="d-block w-100" alt="Projeto 3">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Projeto 1</h5>
+                                <p>Descrição do Projeto 1.</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+            </div>
+             <!-- Carrossel 2 Fim-->
+
+             <!--Carousel 3-->
+            <div class="col-md-6 mb-4">
+                <h4 class="text-center">Landing Pages</h4>
+                <div id="carouselProjetos3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="projeto1.jpg" class="d-block w-100" alt="Projeto 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Projeto 1</h5>
+                                <p>Descrição do Projeto 1.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="projeto1.jpg" class="d-block w-100" alt="Projeto 2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Projeto 1</h5>
+                                <p>Descrição do Projeto 1.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="projeto1.jpg" class="d-block w-100" alt="Projeto 3">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Projeto 1</h5>
+                                <p>Descrição do Projeto 1.</p>
+                            </div>
+                        </div>
+                        <!-- outros slides -->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+            </div>
+             <!-- Carrossel 3 Fim-->
+    
+            <!-- Carrossel 4 -->
+            <div class="col-md-6 mb-4">
+                <h4 class="text-center">Outros Projetos</h4>
+                <div id="carouselProjetos4" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="projeto4.jpg" class="d-block w-100" alt="Projeto 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Projeto 4</h5>
+                                <p>Descrição do Projeto 4.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="projeto1.jpg" class="d-block w-100" alt="Projeto 2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Projeto 1</h5>
+                                <p>Descrição do Projeto 1.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="projeto1.jpg" class="d-block w-100" alt="Projeto 3">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Projeto 1</h5>
+                                <p>Descrição do Projeto 1.</p>
+                            </div>
+                        </div>
+        
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjetos4" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjetos4" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+         <!-- Carrossel 4 Fim-->
+    </section>
+    
+  
+
+    </section>
+       
+
+        <!--sobre mim-->
+
+       <section id="sobre">
+        <div id="content">
+            <h2>Sobre mim</h2>
+            <div id="sobre_conteudo">
+                <img src="assets/QtKdKOJvHz9pPbja32erY.1020.IRZXSOY-removebg-preview.png" alt="Foto-minha" id="sobre-img">
+                <div class="texto">
+
+                    <p>
+                        Olá! Sou Vinicios Rosa, estudante de Desenvolvimento de Software Multiplataforma na Fatec e entusiasta da tecnologia. Tenho grande interesse por desenvolvimento web e estou sempre buscando novos desafios para aprender e evoluir na área.
+                    </p>
+
+                    <p>
+                        Atualmente estudo <span><strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> e <strong>C++</strong> </span> , e venho colocando em prática meus conhecimentos por meio de projetos próprios que me ajudam a crescer como desenvolvedor..
+                    </p>
+
+                </div>
+                <div class="redes-sociais">
+                    <a href="https://github.com/viniciosros4" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/vinicios-rosa-182360351" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://wa.me/5515998343932" target="_blank" class="whatsapp-icon">
+                        <i class="fab fa-whatsapp"></i> 
+                    </a>
+                </div>
+            </div>
+        </div>
+       </section>
+          
+<section id="contato">
+  <form action="https://formsubmit.co/viniciosrp.dev@hotmail.com" method="post" target="_blank">
+    <div id="container_contato">
+        <div class="container-fluid conteudo-contato">
+            <div class="row">
+                <div class="col-12">
+                    <i class="fa-solid fa-envelope display-1" id="icon_email"></i>
+                </div>
+            </div>
+        </div>   
+        
+        <div class="container-fluid mt-1">
+            <div class="row">
+                <div class="col-12">
+                    <label for="nome" class="form-label">Nome: </label>
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+      </div>  
+
+      <div class="container-fluid mt-2">
+        <div class="row">
+            <div class="col-12">
+                <label for="e-mail" class="form-label">E-mail: </label>
+                <input type="text" class="form-control" required>
+            </div>
+        </div>
+     </div> 
+     
+     <div class="container-fluid mt-2">
+        <div class="row">
+            <div class="col-12">
+                <label for="mensagem" class="form-label">Mensagem: </label>
+                <div>
+                    <textarea name="mensagem" id="mensagem" class="form-control mt-2"></textarea>
+                </div>
+            </div>
+        </div>
+        
+     <div class="container-fluid mt-4">
+        <div class="row">
+            <div class="col-12">
+                <button type="submit" class="btn btn-success btn-contato" >
+                    Enviar
+                </button>
+            </div>
+        </div>        
+     </div>   
+    </div>
+ </form>  
+</section>
+
+
+    <div class="footer">
+        <img src="assets/wave.svg" alt="">
+        <div class="text-footer">
+            &copy;Vinicios rosa 2025
+        </div>
+    </div>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--Bootstrap js-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+        <!--Jquery-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>
+</html>

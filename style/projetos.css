@@ -1,0 +1,52 @@
+:root {
+    --color-bg: #2E2E2E;            /* Fundo escuro */
+    --color-surface: #121212;       /* Área secundária (cards, seções internas) */
+    --color-primary: #1E90FF;       /* Azul elétrico (destaques, botões) */
+    --color-accent: #32CD32;        /* Verde neón (links, botões) */
+    --color-text: #D3D3D3;          /* Texto principal */
+    --color-muted: #A9A9A9;         /* Texto secundário */
+    --color-border: #A9A9A9;        /* Bordas sutis */
+    --color-white: #FFFFFF;         /* Branco para elementos principais */
+  }
+
+  #projetos {
+    height: auto;
+    min-height: 100vh;
+    background-color: var();
+}
+
+#projetos h2 {
+
+    text-align: center;
+    color: var(--color-primary);
+    font-size: 2.6rem;
+
+}
+
+.carousel-item img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 2px solid var(--color-primary);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+ 
+}
+
+#projetos h5 {
+
+  font-weight: 800;
+  color:var(--color-white);
+
+}
+
+
+
+
+
+

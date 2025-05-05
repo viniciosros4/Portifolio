@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+  --color-bg: #2E2E2E;            /* Fundo escuro */
+  --color-surface: #121212;       /* Área secundária (cards, seções internas) */
+  --color-primary: #1E90FF;       /* Azul elétrico (destaques, botões) */
+  --color-accent: #32CD32;        /* Verde neón (links, botões) */
+  --color-text: #D3D3D3;          /* Texto principal */
+  --color-muted: #A9A9A9;         /* Texto secundário */
+  --color-border: #A9A9A9;        /* Bordas sutis */
+  --color-white: #FFFFFF;         /* Branco para elementos principais */
+}
+
+* {
+
+  font-family: "Poppins", sans-serif;
+
+}
+
+  html, body {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+    background-color: var(--color-bg) !important; 
+    color: var(--color-text) !important;
+
+    scroll-behavior: smooth;
+
+  }
+
+
+.container-principal {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  'cabecalho cabecalho'
+  'cta banner'
+  'projetos1 projetos2'
+  'sobre sobre'
+  'contato contato'
+  'footer footer'
+  ;
+
+  column-gap: 20px;
+  height: 100vh;
+
+  background-color: var(--color-surface);
+
+
+}
+
+
+
+
+
+  

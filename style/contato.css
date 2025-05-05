@@ -1,0 +1,50 @@
+:root {
+    --color-bg: #2E2E2E;            /* Fundo escuro */
+    --color-surface: #121212;       /* Área secundária (cards, seções internas) */
+    --color-primary: #1E90FF;       /* Azul elétrico (destaques, botões) */
+    --color-accent: #32CD32;        /* Verde neón (links, botões) */
+    --color-text: #D3D3D3;          /* Texto principal */
+    --color-muted: #A9A9A9;         /* Texto secundário */
+    --color-border: #A9A9A9;        /* Bordas sutis */
+    --color-white: #FFFFFF;         /* Branco para elementos principais */
+  }
+  
+
+#contato {
+
+    background-color: var(--color-bg) !important;
+    width: 35%;
+    margin: auto;
+ 
+}
+
+#icon_email {
+    color:var(--color-primary);
+    margin-top: 15px;
+
+}
+
+#container_contato {
+
+    height: 450px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 1px var(--color-primary);
+    margin-top: 20px;
+
+    
+
+}
+
+.conteudo-contato {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.btn-contato {
+    width: 100%;
+}
+
+

@@ -1,0 +1,80 @@
+:root {
+    --color-bg: #2E2E2E;            /* Fundo escuro */
+    --color-surface: #121212;       /* Área secundária (cards, seções internas) */
+    --color-primary: #1E90FF;       /* Azul elétrico (destaques, botões) */
+    --color-accent: #32CD32;        /* Verde neón (links, botões) */
+    --color-text: #D3D3D3;          /* Texto principal */
+    --color-muted: #A9A9A9;         /* Texto secundário */
+    --color-border: #A9A9A9;        /* Bordas sutis */
+    --color-white: #FFFFFF;         /* Branco para elementos principais */
+}
+
+
+header {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    grid-area: cabecalho;
+    height: 120px;
+
+}
+  
+
+#navbar {
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+   
+
+}
+
+#nav_list {
+
+   display: flex; 
+   gap: 48px;
+   margin-top: 20px;
+
+   list-style: none;
+   
+
+}
+
+.nav-items > a {
+
+    text-decoration: none;
+    color: var(--color-text);
+
+}
+
+.nav-items > a:hover {
+
+    text-decoration: none;
+    color: var(--color-primary) ;
+
+}
+
+#logo {
+
+    height: 100px;
+    flex-shrink: 0;
+    margin: 10px 50px;
+
+}
+
+.button-custom {
+
+    margin-right: 40px;
+    
+}
+
+.button-custom  a{
+
+    color: var(--color-white);
+    text-decoration: none;
+    
+}
+
