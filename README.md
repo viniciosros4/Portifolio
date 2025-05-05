@@ -25,6 +25,8 @@ Experimentos com front-end;
 📅 Última atualização
 Maio de 2025.
 
+![Print do projeto](assets/readme-git.png)
+
 📬 Contato
 [https://www.linkedin.com/in/vinicios-rosa-182360351/]
 
