@@ -18,8 +18,8 @@ CSS3
 Bootstrap
 
 📌 O que você vai encontrar
-Projetos acadêmicos e pessoais;
 
+Projetos acadêmicos e pessoais;
 Experimentos com front-end;
 
 📅 Última atualização
